@@ -1,4 +1,4 @@
-<h3>About our Format</h3>
+<h3>OpenVCS version 0.1</h3>
 Our format is derived from CiviCRM.  and uses the following fields. Replace {AREA} with county or city name (for example, Oxfordshire) and {REGION} with UK region (for example South East Region):
 <table border="1" summary="This table describes the OpenVCS data format" cellspacing="2" cellpadding="1"><caption>OpenVCS</caption>
 <tbody>
