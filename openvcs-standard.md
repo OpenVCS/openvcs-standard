@@ -120,7 +120,6 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <tr>
 <td>Geo Code 1</td>
 <td>Latitude or Longitude numeric. Derived from postcode (not shared).*</td>
-</tr>
 <td>Required</td>
 <td></td>
 <tr>
