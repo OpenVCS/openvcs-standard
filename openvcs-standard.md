@@ -1,4 +1,4 @@
-<h3>OpenVCS</h3>
+<h3>OpenVCS 0.2</h3>
 Our format is derived from CiviCRM.  and uses the following fields. Replace {AREA} with county or city name (for example, Oxfordshire) and {REGION} with UK region (for example South East Region):
 <table border="1" summary="This table describes the OpenVCS data format" cellspacing="2" cellpadding="1"><caption>OpenVCS</caption>
 <tbody>
@@ -24,7 +24,8 @@ Our format is derived from CiviCRM.  and uses the following fields. Replace {ARE
 </tr>
 <tr>
 <td>Type of Organisation</td>
-<td><strong>Choose from:</strong> Co-operative; Community association, club, group without a constitution; Community Interest Company; Company limited by guarantee; Network or Partnership; Other; Registered charity or trust; Registered social landlord; Unincorporated association, club or group with a constitution</td>
+<td><strong>Choose from:</strong> Unincorporated association, club or group with a constitution; Community association, club, group without a constitution; Network or Partnership; Registered charity or trust; Charitable Incorporated Organisation (CIO);
+Community Interest Company (limited by guarantee or shares); Co-operative; Company limited by guarantee (inc LLP); Registered social landlord; Company limited by shares; Industrial and Provident Society cooperative; Industrial and Provident Society community benefit; Other</td>
 </tr>
 <tr>
 <td>Sector</td>
@@ -55,8 +56,8 @@ Our format is derived from CiviCRM.  and uses the following fields. Replace {ARE
 <td><strong>Choose from: </strong>Less than £5,000 (A); £5,000 - £24,999 (B); £25,000 - £49,999 (B); £50,000 - £99,000 (B); £100,000 - £249,000 (B2); £250,000 - £499,000 (C); £500,000 - £999,000 (C); £1million or more (C)</td>
 </tr>
 <tr>
-<td>Activities description</td>
-<td>Text description from which keywords can be extracted.</td>
+<td>What you do and what you need</td>
+<td>Text description from which keywords can be extracted. Suggested help text: 'Explain in simple terms your service, any current needs you have (volunteers, funds, building, skills)'</td>
 </tr>
 <tr>
 <td>Type of Service</td>
@@ -85,6 +86,34 @@ Our format is derived from CiviCRM.  and uses the following fields. Replace {ARE
 <tr>
 <td>Disbanded</td>
 <td>Date range in the format DD/MM/YYYY</td>
+</tr>
+<tr>
+<td>IMPACT CATEGORIES</td>
+<td>These come from UKCF and you can <strong>Choose from:</strong> Improve peoples education employability and enterprise; Maximise peoples ability to strengthen community cohesion and build social capacity; Provide people with opportunity to address greater social justice and reduce exclusion and disadvantage; Advance peoples physical and mental health wellbeing and safety; Connect people with the arts culture and heritage; Transform peoples access to and engagement with their environment and public services</td>
+</tr>
+<tr>
+<td>Is a project of 'display name'</td>
+<td>Text field for organisations with a parent body, giving parent body's name</td>
+</tr>
+<tr>
+<td>Federated with / Affiliated to / Ex-affiliated to</td>
+<td>Text field for organisations to explain their professional memberships</td>
+</tr>
+<tr>
+<td>This contact is for: </td>
+<td><strong>Choose from:</strong> A service; An organisation; A facility</td>
+</tr>
+<tr>
+<td>What are the requirements of people who want to use this service?</td>
+<td>Text field.</td>
+</tr>
+<tr>
+<td>Hours of Operation</td>
+<td>Text field. Preferred format like: "09:00 - 17:00 Monday to Friday"</td>
+</tr>
+<tr>
+<td>Has worked with local CVS</td>
+<td><strong>Choose from:</strong> Yes; No</td>
 </tr>
 </tbody>
 </table>
