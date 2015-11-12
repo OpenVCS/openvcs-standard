@@ -52,7 +52,7 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <td><strong>Choose from: </strong>Corporate donations or sponsorship; Funding from EC sources (e.g European social fund); Fundraising from the general public (inc legacies); Grants from trusts or the National lottery; Grants or contracts from an NHS body; Grants or contracts from an {AREA} local authority; Grants or contracts from {AREA} County Council; Grants or contracts from {AREA} City Council; Grants or contracts from {AREA} District Council; Investment income; local authority/regional grants outside {AREA}; Membership fees; No income; Rental income; Trade (Sale of goods or charges for services)</td>
 </tr>
 <tr>
-<td>Average Annual Turnover</td>
+<td>Last years' income</td>
 <td><strong>Choose from: </strong>Less than £5,000 (A); £5,000 - £24,999 (B); £25,000 - £49,999 (B); £50,000 - £99,000 (B); £100,000 - £249,000 (B2); £250,000 - £499,000 (C); £500,000 - £999,000 (C); £1million or more (C)</td>
 </tr>
 <tr>
