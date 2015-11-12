@@ -21,12 +21,6 @@ Our format is derived from CiviCRM.  and uses the following fields. Replace {ARE
 <td></td>
 </tr>
 <tr>
-<td>Postal Code</td>
-<td>A valid UK Postcode</td>
-<td>Optional</td>
-<td></td>
-</tr>
-<tr>
 <td>State</td>
 <td>County</td>
 <td>Optional</td>
@@ -88,7 +82,7 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <td></td>
 </tr>
 <tr>
-<td>What you do and what you need</td>
+<td>What you do, and what you need</td>
 <td>Text description from which keywords can be extracted. Suggested help text: 'Explain in simple terms your service, any current needs you have (volunteers, funds, building, skills)'</td>
 <td>Optional</td>
 <td></td>
@@ -129,31 +123,37 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <td></td>
 </tr>
 <tr>
-<td>Disbanded</td>
-<td>Date range in the format DD/MM/YYYY</td>
-<td>Optional</td>
-<td></td>
-</tr>
-<tr>
-<td>IMPACT CATEGORIES</td>
-<td>These come from UKCF and you can <strong>Choose from:</strong> Improve peoples education employability and enterprise; Maximise peoples ability to strengthen community cohesion and build social capacity; Provide people with opportunity to address greater social justice and reduce exclusion and disadvantage; Advance peoples physical and mental health wellbeing and safety; Connect people with the arts culture and heritage; Transform peoples access to and engagement with their environment and public services</td>
-<td>Recommended</td>
-<td>UKCF members</td>
-</tr>
-<tr>
-<td>Is a project of 'display name'</td>
+<td>Project of-display_name</td>
 <td>Text field for organisations with a parent body, giving parent body's name</td>
 <td>Optional</td>
 <td></td>
 </tr>
 <tr>
-<td>Federated with / Affiliated to / Ex-affiliated to</td>
+<td>Postal Code</td>
+<td>A valid UK Postcode</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Date Disbanded</td>
+<td>Date range in the format DD/MM/YYYY</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>IMPACT Categories</td>
+<td>These come from UKCF and you can <strong>Choose from:</strong> Improve peoples education employability and enterprise; Maximise peoples ability to strengthen community cohesion and build social capacity; Provide people with opportunity to address greater social justice and reduce exclusion and disadvantage; Advance peoples physical and mental health wellbeing and safety; Connect people with the arts culture and heritage; Transform peoples access to and engagement with their environment and public services</td>
+<td>Recommended</td>
+<td>UKCF members</td>
+</tr>
+<tr>
+<td>Federated with/ Affiliated to/ Ex-affiliated to</td>
 <td>Text field for organisations to explain their professional memberships</td>
 <td>Optional</td>
 <td></td>
 </tr>
 <tr>
-<td>This contact is for: </td>
+<td>This contact is for:</td>
 <td><strong>Choose from:</strong> A service; An organisation; A facility</td>
 <td>Optional</td>
 <td></td>
@@ -165,13 +165,13 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <td></td>
 </tr>
 <tr>
-<td>Hours of Operation</td>
+<td>Hours of Operation (eg, "9:00 - 15:00 Monday to Friday")</td>
 <td>Text field. Preferred format like: "09:00 - 17:00 Monday to Friday"</td>
 <td>Optional</td>
 <td></td>
 </tr>
 <tr>
-<td>Has worked with local CVS</td>
+<td>Has worked with local VCS</td>
 <td><strong>Choose from:</strong> Yes; No</td>
 <td>Optional</td>
 <td></td>
@@ -183,11 +183,11 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 <td></td>
 </tr>
 <tr>
-<td>Source</td>
+<td>Source of Contact Data</td>
 <td>Text field. Source of the data in the record. For example 'google' or 'local foundation'</td>
 <td>Optional</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-*Groups must provide explicit opt-in to be included in our data set. Upon joining OCVA or filling out a data submission form, groups are told that postcodes are used to provide map point data. If they wish, they can provide a slightly altered postcode. We are always on hand to help groups to do this.
+*Groups must provide explicit opt-in to be included in our data set, so in our exports we also include a field to check the opt-in, but this is stripped out of the open data once it has been checked. Upon joining OCVA or filling out a data submission form, groups are told that postcodes are used to provide map point data. If they wish, they can provide a slightly altered postcode. We are always on hand to help groups to do this.
