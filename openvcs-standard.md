@@ -1,4 +1,10 @@
 <h3>OpenVCS 0.2</h3>
+*Groups may provide explicit opt-in to be included in the data set, so in my own exports I also include a field to check the opt-in (called 'directory consent' yes/no), but this is stripped out of the open data once it has been checked as it has then served its purpose. Postcodes are used to provide geocode (map point) data. Where a small group's address is a residential address, an individual could be identified as connected to that group presenting a potential breach of data protection. If groups wish, they can provide a slightly altered postcode. In the majority of cases this is not an issue and may not be an issue at all - depending on your local situation.
+
+When making your data available in the OpenVCS format (as a CSV or Excel file for example) I suggest posting it to your website domain at /open. For example yourdomain.com/open. I also suggest a naming convention for the file as follows:
+
+openvcs-v02-ocva.csv where 'openvcs' identifies the data format, 'v02' identifies the version of openvcs in use (version 0.2 in this case) and 'ocva' identifies the name of your organisation (for me it's OCVA, Oxfordshire Community & Voluntary Action). I'd suggest not putting the date in the file name because that would change the file name each time. But you could put the date of the data export on its related web page, or even in the text of the link to the file. 
+
 Our format is derived from CiviCRM.  and uses the following fields. Replace {AREA} with county or city name (for example, Oxfordshire) and {REGION} with UK region (for example South East Region):
 <table border="1" summary="This table describes the OpenVCS data format" cellspacing="2" cellpadding="1"><caption>OpenVCS</caption>
 <tbody>
@@ -7,12 +13,6 @@ Our format is derived from CiviCRM.  and uses the following fields. Replace {ARE
 <th>Description</th>
 <th>Required, Recommended (mapped to a national schema), Optional?</th>
 <th>Root source for this</th>
-</tr>
-<tr>
-<td>Version number in use</td>
-<td>Numeric, for example '0.2'</td>
-<td>Required</td>
-<td></td>
 </tr>
 <tr>
 <td>Display Name</td>
@@ -190,4 +190,4 @@ Community Interest Company (limited by guarantee or shares); Co-operative; Compa
 </tr>
 </tbody>
 </table>
-*Groups must provide explicit opt-in to be included in our data set, so in our exports we also include a field to check the opt-in, but this is stripped out of the open data once it has been checked. Upon joining OCVA or filling out a data submission form, groups are told that postcodes are used to provide map point data. If they wish, they can provide a slightly altered postcode. We are always on hand to help groups to do this.
+
