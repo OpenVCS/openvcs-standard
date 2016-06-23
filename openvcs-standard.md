@@ -3,9 +3,12 @@
 
 When making your data available in the OpenVCS format (as a CSV or Excel file for example) I suggest posting it to your website domain at /open. For example yourdomain.com/open. I also suggest a naming convention for the file as follows:
 
-openvcs-v02-ocva.csv where 'openvcs' identifies the data format, 'v02' identifies the version of openvcs in use (version 0.2 in this case) and 'ocva' identifies the name of your organisation (for me it's OCVA, Oxfordshire Community & Voluntary Action). I'd suggest not putting the date in the file name because that would change the file name each time. But you could put the date of the data export on its related web page, or even in the text of the link to the file. 
+openvcs-v02-ocva.csv where 'openvcs' identifies the data format, 'v02' identifies the version of openvcs in use (version 0.2 in this case) and 'ocva' identifies the name of your organisation (for me I've used OCVA, Oxfordshire Community & Voluntary Action). I'd suggest not putting the date in the file name because that would change the file name each time. But you could put the date of the data export on its related web page, or even in the text of the link to the file. 
 
-Our format is derived from CiviCRM.  and uses the following fields. Replace {AREA} with county or city name (for example, Oxfordshire) and {REGION} with UK region (for example South East Region):
+Our format is derived from CiviCRM.  and uses the following fields. Replace {AREA} with county or city name (for example, Oxfordshire) and {REGION} with UK region (for example South East Region).
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
 <table border="1" summary="This table describes the OpenVCS data format" cellspacing="2" cellpadding="1"><caption>OpenVCS</caption>
 <tbody>
 <tr>
